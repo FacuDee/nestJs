@@ -2,39 +2,63 @@
   "tracks": [
     {
       "id": 1,
-      "title": "cancion 1",
-      "duration": 120,
-      "artist": "interprete 1"
+      "title": "Bohemian Rhapsody",
+      "duration": 354,
+      "artist": "Queen"
     },
     {
       "id": 2,
-      "title": "cancion 2",
-      "duration": 112,
-      "artist": "interprete 2"
+      "title": "Imagine",
+      "duration": 183,
+      "artist": "John Lennon"
     },
     {
       "id": 3,
-      "title": "cancion 3",
-      "duration": 95,
-      "artist": "interprete 3"
+      "title": "Smells Like Teen Spirit",
+      "duration": 301,
+      "artist": "Nirvana"
     },
     {
       "id": 4,
-      "title": "cancion 4",
-      "duration": 101,
-      "artist": "interprete 4"
+      "title": "Billie Jean",
+      "duration": 294,
+      "artist": "Michael Jackson"
     },
     {
       "id": 5,
-      "title": "cancion 5",
-      "duration": 98,
-      "artist": "interprete 5"
+      "title": "Hotel California",
+      "duration": 391,
+      "artist": "Eagles"
     },
     {
       "id": 6,
-      "title": "cancion 6",
-      "duration": 126,
-      "artist": "interprete 6"
+      "title": "Hey Jude",
+      "duration": 431,
+      "artist": "The Beatles"
+    },
+    {
+      "id": 7,
+      "title": "Like a Rolling Stone",
+      "duration": 369,
+      "artist": "Bob Dylan"
+    },
+    {
+      "id": 8,
+      "title": "Lose Yourself",
+      "duration": 326,
+      "artist": "Eminem"
+    },
+    {
+      "id": 9,
+      "title": "Stairway to Heaven",
+      "duration": 482,
+      "artist": "Led Zeppelin"
+    },
+    {
+      "id": 10,
+      "title": "Rolling in the Deep",
+      "duration": 228,
+      "artist": "Adele"
     }
   ]
 }
