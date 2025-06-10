@@ -1,61 +1,61 @@
 {
   "tracks": [
     {
-      "id": "1",
+      "id": 1,
       "title": "Bohemian Rhapsody",
       "duration": 354,
       "artist": "Queen"
     },
     {
-      "id": "2",
+      "id": 2,
       "title": "Imagine",
       "duration": 183,
       "artist": "John Lennon"
     },
     {
-      "id": "3",
+      "id": 3,
       "title": "Smells Like Teen Spirit",
       "duration": 301,
       "artist": "Nirvana"
     },
     {
-      "id": "4",
+      "id": 4,
       "title": "Billie Jean",
       "duration": 294,
       "artist": "Michael Jackson"
     },
     {
-      "id": "5",
+      "id": 5,
       "title": "Hotel California",
       "duration": 391,
       "artist": "Eagles"
     },
     {
-      "id": "6",
+      "id": 6,
       "title": "Hey Jude",
       "duration": 431,
       "artist": "The Beatles"
     },
     {
-      "id": "7",
+      "id": 7,
       "title": "Like a Rolling Stone",
       "duration": 369,
       "artist": "Bob Dylan"
     },
     {
-      "id": "8",
+      "id": 8,
       "title": "Lose Yourself",
       "duration": 326,
       "artist": "Eminem"
     },
     {
-      "id": "9",
+      "id": 9,
       "title": "Stairway to Heaven",
       "duration": 482,
       "artist": "Led Zeppelin"
     },
     {
-      "id": "10",
+      "id": 10,
       "title": "Rolling in the Deep",
       "duration": 228,
       "artist": "Adele"
@@ -89,6 +89,36 @@
       "title": "Hallelujah",
       "duration": 282,
       "artist": "Leonard Cohen"
+    },
+    {
+      "id": 16,
+      "title": "Take On Me",
+      "duration": 225,
+      "artist": "a-ha"
+    },
+    {
+      "id": 17,
+      "title": "Yesterday",
+      "duration": 125,
+      "artist": "The Beatles"
+    },
+    {
+      "id": 18,
+      "title": "Beat It",
+      "duration": 258,
+      "artist": "Michael Jackson"
+    },
+    {
+      "id": 19,
+      "title": "Mr. Brightside",
+      "duration": 222,
+      "artist": "The Killers"
+    },
+    {
+      "id": 20,
+      "title": "Uptown Funk",
+      "duration": 270,
+      "artist": "Mark Ronson ft. Bruno Mars"
     }
   ]
 }

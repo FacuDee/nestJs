@@ -38,9 +38,9 @@ export class TrackService {
   }
 
   private async setId(): Promise<number> {
-    const tracks = await this.getTracks();
-    const lastId = tracks.length > 0 ? Number(tracks[tracks.length - 1].id) : 0;
-    const id = lastId + 1;
-    return id;
-  }
+  const tracks = await this.getTracks();
+  const lastTrack = tracks[tracks.length - 1];
+  const lastId = lastTrack ? Number(lastTrack.id) : 0;
+  return lastId + 1;
+}
 }

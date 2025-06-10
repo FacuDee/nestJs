@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const res = await fetch('http://localhost:3000/tracks', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
-        body: JSON.stringify(track)
+        body: JSON.stringify(track),
       });
 
       if (!res.ok) {
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tracksList.innerHTML = '<li>No hay canciones registradas.</li>';
         return;
       }
-      tracks.forEach(track => {
+      tracks.forEach((track) => {
         const li = document.createElement('li');
         li.textContent = `${track.title} - ${track.artist} (${track.duration}seg.)`;
         tracksList.appendChild(li);
