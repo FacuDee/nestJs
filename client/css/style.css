@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap");
+
+
 :root {
   --primary-color: #d9224c;
   --secondary-color: #f3f4f6;
   --text-color: white;
+  --text-secondary-color: #333;
 }
 
 * {
@@ -10,8 +14,8 @@
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #f3f4f6;
+  font-family: Montserrat, sans-serif;
+  background-color: var(--secondary-color);
 }
 
 header {
@@ -38,7 +42,7 @@ h1 {
 
 .container li {
   margin: 10px;
-  padding: 10px;
+  padding: 5px;
   background-color: var(--primary-color);
   color: var(--text-color);
   border: 2px solid var(--text-color);
@@ -70,6 +74,146 @@ h1 {
   width: 75%;
   height: auto;
   border-radius: 5px;
+}
 
+/* Estilo para el botón Consultar BD */
+#obtenerData {
+  display: block;
+  margin: 2rem auto 1.5rem auto;
+  padding: 0.8rem 2rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+#obtenerData:hover {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+/* Estilos para la lista de tracks */
+.tracks-list {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background-color: var(--text-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  color: var(--text-secondary-color);
+  font-size: 1.05rem;
+  list-style: decimal inside;
+}
+
+.tracks-list li {
+  padding: 0.7rem 0.5rem;
+  border-bottom: 1px solid #eee;
+  transition: background 0.2s;
+}
+
+.tracks-list li:last-child {
+  border-bottom: none;
+}
+
+.tracks-list li:hover {
+  background-color: #fbeaf0;
+  color: var(--primary-color);
+}
+
+/* Estilos para el formulario de tracks */
+.form-tracks {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--text-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.form-tracks h2 {
+  text-align: center;
+  color: var(--text-secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  background-color: #fff0f5;
+}
+
+/* Estilo para el botón de enviar del formulario */
+.form-tracks button[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 1.5rem auto 0 auto;
+  padding: 0.8rem 2rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.form-tracks button[type="submit"]:hover {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+/* Estilos para el mensaje de resultado */
+#resultado {
+  max-width: 500px;
+  margin: 1.5rem auto;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Mensaje de éxito */
+#resultado[style*="green"] {
+  background-color: #eafbe7;
+  color: #1a7f37 !important;
+  border: 1.5px solid #1a7f37;
+}
+
+/* Mensaje de error */
+#resultado[style*="red"] {
+  background-color: #fdeaea;
+  color: #d9224c !important;
+  border: 1.5px solid #d9224c;
 }
 
