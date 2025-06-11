@@ -35,6 +35,18 @@
       "title": "Hey Jude",
       "artist": "The Beatles",
       "duration": 431
+    },
+    {
+      "id": "7",
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "duration": 369
+    },
+    {
+      "id": "8",
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "duration": 326
     }
   ]
 }
