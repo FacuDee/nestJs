@@ -6,14 +6,15 @@ const BASE_URL = 'http://localhost:3030/tracks/';
 @Injectable()
 export class TrackService {
   async createTrack(track: Track): Promise<Track> {
-    const id = await this.setId();
-    const newTrack: Track = { ...track, id };
-    // const newTrack: Track = {
-    //   id: idn,
-    //   title: track.title,
-    //   artist: track.artist,
-    //   duration: track.duration
-    // };
+    const idn = await this.setId();
+    // const newTrack: Track = { ...track, id };
+    const newTrack: Track = {
+      id: idn,
+      title: track.title,
+      artist: track.artist,
+      duration: track.duration
+    };
+    console.log('Nuevo track a guardar:', newTrack, 'Tipo de id:', typeof newTrack.id);
     const res = await fetch(BASE_URL, {
       method: 'POST',
       headers: {

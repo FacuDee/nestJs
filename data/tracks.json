@@ -3,122 +3,20 @@
     {
       "id": 1,
       "title": "Bohemian Rhapsody",
-      "duration": 354,
-      "artist": "Queen"
+      "artist": "Queen",
+      "duration": 354
     },
     {
       "id": 2,
       "title": "Imagine",
-      "duration": 183,
-      "artist": "John Lennon"
+      "artist": "John Lennon",
+      "duration": 183
     },
     {
       "id": 3,
       "title": "Smells Like Teen Spirit",
-      "duration": 301,
-      "artist": "Nirvana"
-    },
-    {
-      "id": 4,
-      "title": "Billie Jean",
-      "duration": 294,
-      "artist": "Michael Jackson"
-    },
-    {
-      "id": 5,
-      "title": "Hotel California",
-      "duration": 391,
-      "artist": "Eagles"
-    },
-    {
-      "id": 6,
-      "title": "Hey Jude",
-      "duration": 431,
-      "artist": "The Beatles"
-    },
-    {
-      "id": 7,
-      "title": "Like a Rolling Stone",
-      "duration": 369,
-      "artist": "Bob Dylan"
-    },
-    {
-      "id": 8,
-      "title": "Lose Yourself",
-      "duration": 326,
-      "artist": "Eminem"
-    },
-    {
-      "id": 9,
-      "title": "Stairway to Heaven",
-      "duration": 482,
-      "artist": "Led Zeppelin"
-    },
-    {
-      "id": 10,
-      "title": "Rolling in the Deep",
-      "duration": 228,
-      "artist": "Adele"
-    },
-    {
-      "id": 11,
-      "title": "Wonderwall",
-      "duration": 258,
-      "artist": "Oasis"
-    },
-    {
-      "id": 12,
-      "title": "Sweet Child o' Mine",
-      "duration": 356,
-      "artist": "Guns N' Roses"
-    },
-    {
-      "id": 13,
-      "title": "Shape of You",
-      "duration": 263,
-      "artist": "Ed Sheeran"
-    },
-    {
-      "id": 14,
-      "title": "Back in Black",
-      "duration": 255,
-      "artist": "AC/DC"
-    },
-    {
-      "id": 15,
-      "title": "Hallelujah",
-      "duration": 282,
-      "artist": "Leonard Cohen"
-    },
-    {
-      "id": 16,
-      "title": "Take On Me",
-      "duration": 225,
-      "artist": "a-ha"
-    },
-    {
-      "id": 17,
-      "title": "Yesterday",
-      "duration": 125,
-      "artist": "The Beatles"
-    },
-    {
-      "id": 18,
-      "title": "Beat It",
-      "duration": 258,
-      "artist": "Michael Jackson"
-    },
-    {
-      "id": 19,
-      "title": "Mr. Brightside",
-      "duration": 222,
-      "artist": "The Killers"
-    },
-    {
-      "id": 20,
-      "title": "Uptown Funk",
-      "duration": 270,
-      "artist": "Mark Ronson ft. Bruno Mars"
+      "artist": "Nirvana",
+      "duration": 301
     }
   ]
 }
