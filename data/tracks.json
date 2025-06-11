@@ -17,6 +17,24 @@
       "title": "Smells Like Teen Spirit",
       "artist": "Nirvana",
       "duration": 301
+    },
+    {
+      "id": 4,
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "duration": 294
+    },
+    {
+      "id": 5,
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "duration": 391
+    },
+    {
+      "id": 6,
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "duration": 431
     }
   ]
 }
