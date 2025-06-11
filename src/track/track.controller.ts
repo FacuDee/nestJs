@@ -1,4 +1,12 @@
-import { Body, Controller, Get, Param, Post } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Delete,
+  Get,
+  Param,
+  Post,
+  Put,
+} from '@nestjs/common';
 import { TrackService } from './track.service';
 import { Track } from './track.interface';
 
@@ -12,11 +20,24 @@ export class TrackController {
 
   @Get(':id')
   getTrackById(@Param('id') id: string): Promise<Track> {
-    return this.trackService.getTrackById(Number(id));
+    return this.trackService.getTrackById(id);
   }
 
   @Post()
   createTrack(@Body() body: Track): Promise<Track> {
     return this.trackService.createTrack(body);
+  }
+
+  @Delete(':id')
+  deleteTrackById(@Param('id') id: string): Promise<Track> {
+    return this.trackService.deleteTrackById(id);
+  }
+
+  @Put(':id')
+  updateTrackById(
+    @Param('id') id: string,
+    @Body() body: Track,
+  ): Promise<Track> {
+    return this.trackService.updateTrackById(id, body);
   }
 }

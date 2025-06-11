@@ -9,6 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <header class="container">
@@ -23,20 +27,26 @@
     </header>
 
     <form action="" id="form-tracks" class="form-tracks">
-        <h2>Formulario de canciones</h2>
-        <div class="form-group">
-            <label for="name">Título de la canción:</label>
-            <input type="text" id="title" name="title" required />
-        </div>
-        <div class="form-group">
-            <label for="artist">Artista:</label>
-            <input type="text" id="artist" name="artist" required />
-        </div>
-        <div class="form-group">
-            <label for="duration">Duración:</label>
-            <input type="number" id="duration" name="duration" placeholder="En segundos" required />
-        </div>
-        <button type="submit">Enviar canción</button>
+      <h2>Formulario de canciones</h2>
+      <div class="form-group">
+        <label for="name">Título de la canción:</label>
+        <input type="text" id="title" name="title" required />
+      </div>
+      <div class="form-group">
+        <label for="artist">Artista:</label>
+        <input type="text" id="artist" name="artist" required />
+      </div>
+      <div class="form-group">
+        <label for="duration">Duración:</label>
+        <input
+          type="number"
+          id="duration"
+          name="duration"
+          placeholder="En segundos"
+          required
+        />
+      </div>
+      <button type="submit">Enviar canción</button>
     </form>
 
     <div id="resultado"></div>
@@ -44,9 +54,27 @@
     <button id="obtenerData">Consultar BD</button>
 
     <ol id="tracks-list" class="tracks-list"></ol>
-    
+
+    <!-- Modal de edición -->
+    <div id="edit-modal" class="modal" style="display: none">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <h2>Editar Canción</h2>
+        <form id="edit-form">
+          <input type="hidden" id="edit-id" />
+          <label>Título: <input type="text" id="edit-title" required /></label
+          ><br />
+          <label>Artista: <input type="text" id="edit-artist" required /></label
+          ><br />
+          <label
+            >Duración:
+            <input type="number" id="edit-duration" required /></label
+          ><br />
+          <button type="submit">Guardar cambios</button>
+        </form>
+      </div>
+    </div>
 
     <script src="./js/script.js"></script>
-    
   </body>
 </html>
