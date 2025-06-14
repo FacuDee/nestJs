@@ -19,17 +19,17 @@ export class TrackController {
   }
 
   @Get(':id')
-  getTrackById(@Param('id') id: string): Promise<Track> {
+  getTrackById(@Param('id') id: string): Promise<Track | undefined> {
     return this.trackService.getTrackById(id);
   }
 
   @Post()
-  createTrack(@Body() body: Track): Promise<Track> {
+  createTrack(@Body() body: Track): Promise<Track | undefined> {
     return this.trackService.createTrack(body);
   }
 
   @Delete(':id')
-  deleteTrackById(@Param('id') id: string): Promise<Track> {
+  deleteTrackById(@Param('id') id: string): Promise<Track | undefined> {
     return this.trackService.deleteTrackById(id);
   }
 
@@ -37,7 +37,7 @@ export class TrackController {
   updateTrackById(
     @Param('id') id: string,
     @Body() body: Track,
-  ): Promise<Track> {
+  ): Promise<Track | undefined> {
     return this.trackService.updateTrackById(id, body);
   }
 }

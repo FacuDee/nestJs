@@ -47,6 +47,18 @@
       "title": "Lose Yourself",
       "artist": "Eminem",
       "duration": 326
+    },
+    {
+      "id": "9",
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "duration": 482
+    },
+    {
+      "id": "10",
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "duration": 228
     }
   ]
 }
